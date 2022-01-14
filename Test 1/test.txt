@@ -1,0 +1,40 @@
+1. Describe Javadoc and our code styling standards completely and accurately.
+
+Javadoc is used before classes and methods. Its comments start with ‘/**’ and end with ‘*/’. Javadoc is used to describe the functionality of classes and methods. 
+You can use tags in them, which essentially allow you to have metadata about the class or method, such as the author, parameters, and return type. The code styling 
+standards are used to make sure that Java code, and all code in general, is readable and understandable by others. Code styling specifically concerns brace placement,
+indentation, naming, extra lines, and commenting. Braces can be placed on the same line as the code with the closing braces on their own line or with both the opening
+and closing braces on their own lines. Code should be indented whenever it is inside curly braces. Variable, class, and method names should display their role and be 
+written using CamelCase. Class names should be in UpperCamelCase while variables and methods should be in lowerCamelCase. Extra lines are not needed typically, but most 
+programmers have an extra line between methods. Inline comments should be concise and explain the code if it is strange or possibly confusing. Inline comments most likely
+do not need to be used if you follow Javadoc and the code styling standards well.
+
+2. Explain the pointer concept.
+
+Pointers represent memory addresses in the computer. All objects in Java are actually pointers. In other words, a pointer is something that points from the variable name 
+to the actual value held at the memory address. This process is known as dereferencing. Conversely, referencing a variable will give its memory address.
+
+3. Explain what a linked list is and compare it to a standard array, both pros and cons.
+
+A linked list is a series of Object types (that is, they can be integers, strings, characters, a custom object type. etc) connected by pointers. These objects are held as 
+nodes, and each node has a next pointer, which points to the next node in the linked list. As opposed to a standard array, you can increase the size of a linked list. 
+However, you may only traverse a linked list forward, whereas in an array you can traverse backward and forwards. In Java, an array can typically only hold one data type, 
+while a linked list can be constructed in order to hold more than one data type using generic types. You can index a standard array while you cannot index a linked list 
+(typically due to the fact that the node you’re on is the index). It is less time-consuming to insert and delete elements to the end of a linked list as opposed to an array. 
+In a linked list, though, you may not insert or delete from the middle of a linked list whereas you can in an array.
+
+4. Explain what a doubly linked list is and give pros and cons when compared to a standard linked list.
+
+A doubly linked list is very similar to a linked list, however, this can be traversed in both directions. This is accomplished by another pointer being constructed that 
+points to the previous node. This has the advantage of being more versatile because you have access to every node. But it also has the drawback of taking up more memory 
+and being harder to construct and use. A doubly linked list adds functionality such as insertion and deletion to some point in the middle of the list but at the cost of 
+the performance offered by a singly linked list.
+
+5. Explain the stack concept. What kinds of problems are stacks used for? Do not use projects we did as examples.
+
+A stack is a data structure that uses the First In Last Out structure. We can implement it with a linked list. In this implementation, when you push to a stack, 
+you end up pushing to the end of a linked list; popping removes the value of the ending node, then “traverses” back one node and sets it as the new ending (or top); 
+peeking is retrieving the value of the top node. Every program with a method uses stacks to store the ordering of when the methods are called. When a method is called, 
+it is pushed onto the stack. When the method returns a value, the method is popped off of the stack. Stacks can also be used for backtracking, evaluation of arithmetic 
+operations (especially in prefix and postfix notation), reversing data, and can be used to create esoteric programming languages (the stack can hold function data or can 
+be used to interpret the syntax of the language).
