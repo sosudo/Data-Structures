@@ -1,0 +1,2 @@
+# Test 1
+I'm expecting a straightforward technical writing style with few compound sentences and direct explanations. For example, the first question is about Javadoc. A BAD sentence would be something like "Javadoc is a great way to document code, used by companies like Google". That sentence contains an opinion and cursory information about Javadoc. A GOOD sentence might be "All Javadoc comments start with /** and begin each line with a * aligned with the first *."
