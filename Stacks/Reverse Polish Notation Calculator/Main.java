@@ -13,8 +13,8 @@ public class Main {
 		    try {
 		        polish.push(Integer.parseInt(input));
 		    } catch (Exception e) {
-	            n1 = polish.pop();
-	            n2 = polish.pop();
+			n1 = polish.pop();
+			n2 = polish.pop();
 		        opcode = input.charAt(0);
 		        if(opcode == '+') {
 		            polish.push(n2+n1);
