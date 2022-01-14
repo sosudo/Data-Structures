@@ -1,0 +1,2 @@
+# Reverse Polish Notation Calculator
+Read a file called "polish.txt" which will be a Reverse Polish Notation calculation with tokens seperated by spaces. While reading the file, apply the Reverse Polish Notation algorithm to it to calculate the answer. This program does NOT have to account for errors or incorrect input. This program can do all calculations with integers. This program only needs to do the 4 usual functions of a calculator (+ - * /).
